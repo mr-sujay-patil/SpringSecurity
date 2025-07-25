@@ -1,0 +1,69 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+
+# Compiled files
+*.class
+
+# Logs
+*.log
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.sublime-workspace
+
+# IDE auto-save
+__pycache__/
+*.pid
+
+# Environment files (optional)
+.env
+.env.*
+
+# Local config files
+*.local
+*.settings
+*.user
+*.launch
+
+# Coverage reports
+coverage/
+*.lcov
+
+# JetBrains-specific files (optional but common)
+out/
+
+# Generated JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# S3 Uploads, Cache, or temp files (if generated)
+*.zip
+*.tar.gz
+*.zst
+*.csv
+
+# If using Lombok delombok generated sources
+delombok/
+
+# Ignore database files (if any local SQLite/H2)
+*.db
+
+# Ignore SonarQube working files
+.sonar/
+
+# Ignore Kafka Logs (if local Kafka running)
+kafka-logs/
